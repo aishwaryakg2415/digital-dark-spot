@@ -54,5 +54,5 @@
 
 ---
 
-**GitHub repository link:** (your repo URL)
-**Live demo link:** (optional, e.g. Vercel URL)
+**GitHub repository link:** https://github.com/aishwaryakg2415/digital-dark-spot
+**Live demo link:** https://digital-dark-spot-iv3z.vercel.app

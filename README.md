@@ -3,6 +3,8 @@
 Digital Dark Spot helps you find gaps, contradictions, outdated details, and copied information in research sources. Add a research question and sources as URLs or pasted text. The app builds a checklist of what a complete answer should cover, checks each source for evidence, and links findings to supporting passages.
 
 > Built for the Shinchan Online Hackathon 2026 (DEVENGERS problem statement).
+>
+> **Live demo:** https://digital-dark-spot-iv3z.vercel.app
 
 ## Why Digital Dark Spot?
 
