@@ -1,0 +1,20 @@
+{
+  "v": 4,
+  "createdOnFiles": { "v": 1, "at": "2026-11-01T09:00:00Z" },
+  "lists": "css",
+  "title": "Digital Dark Spot",
+  "cover": "cover",
+  "order": ["cover", "problem", "tools", "solution", "pipeline", "echo-statement", "echo-how", "evidence", "demo", "real-world", "tech", "impact", "future", "thanks"],
+  "sections": {
+    "s1": { "description": "The problem: research looks complete but hides gaps, conflicts, stale facts and copies.", "start": "cover" },
+    "s2": { "description": "The solution and how the pipeline works.", "start": "solution" },
+    "s3": { "description": "What makes it unique: the Echo detector.", "start": "echo-statement" },
+    "s4": { "description": "Trust, demo and real-world results.", "start": "evidence" },
+    "s5": { "description": "Technology, impact and what comes next.", "start": "tech" }
+  },
+  "faces": {
+    "baloo-2": { "family": "Baloo 2", "href": "https://fonts.googleapis.com/css2?family=Baloo+2:wght@500..800&display=swap" },
+    "nunito": { "family": "Nunito", "href": "https://fonts.googleapis.com/css2?family=Nunito:wght@400..800&display=swap" }
+  },
+  "designSystems": []
+}

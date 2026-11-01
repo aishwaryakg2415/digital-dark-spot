@@ -1,0 +1,33 @@
+<section id="tech" data-transition="fade" style="background:#eef7f1;color:#1c2321;font-family:'Nunito', Verdana, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:800;letter-spacing:4px;text-transform:uppercase;color:#1f6f4a">Technical implementation</p>
+<h2 style="font-family:'Baloo 2', Verdana, sans-serif;font-size:72px;font-weight:800;line-height:1.1">Built to keep working, even when the AI doesn’t</h2>
+</div>
+<div style="display:flex;flex-direction:row;gap:48px;align-items:stretch">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#fbfdfb;border:3px solid #1c2321;border-radius:24px;box-shadow:6px 6px 0 #1c2321;padding:40px">
+<h3 style="font-family:'Baloo 2', Verdana, sans-serif;font-size:44px;font-weight:800">Stack</h3>
+<ul style="font-size:28px;line-height:1.5">
+<li>Next.js 15, React 19, TypeScript, Tailwind CSS 4</li>
+<li>Groq: GPT-OSS 120B and 20B in JSON mode</li>
+<li>zod validation with automatic repair retry</li>
+<li>cheerio for page text, dates and official-domain detection</li>
+<li>Results stream live; no database needed</li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#fbfdfb;border:3px solid #1c2321;border-radius:24px;box-shadow:6px 6px 0 #1c2321;padding:40px">
+<h3 style="font-family:'Baloo 2', Verdana, sans-serif;font-size:44px;font-weight:800">Reliability</h3>
+<ul style="font-size:28px;line-height:1.5">
+<li>Works with no API key in offline keyword mode</li>
+<li>Any failed AI step falls back to rules, with a warning</li>
+<li>Rate limits: switches models, then backs off</li>
+<li>Long pages trimmed to relevant passages: 141 s → 22 s</li>
+<li>Blocks private addresses and “page not found” pages</li>
+</ul>
+</div>
+</div>
+<div style="position:absolute;left:128px;bottom:64px;width:1664px;display:flex;flex-direction:row;justify-content:space-between">
+<p style="font-size:24px;font-weight:700;color:#3d4a45">Digital Dark Spot</p>
+<p style="font-size:24px;font-weight:700;color:#3d4a45">11</p>
+</div>
+<aside>Under the hood: Next.js and TypeScript, with Groq’s GPT-OSS models for the language work. Every AI response is validated against a schema and repaired if needed. It’s designed to degrade gracefully: no key, it runs offline with keyword matching; an AI step fails, it falls back to rules and tells you. We cut a full analysis from 141 seconds to about 22 by sending only relevant passages and spreading work across two models.</aside>
+</section>
