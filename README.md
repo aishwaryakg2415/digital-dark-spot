@@ -158,3 +158,5 @@ src/
 ## Responsible use
 
 Digital Dark Spot reports **signals to verify**, not answers. It can miss information the sources do contain, and AI summaries can be wrong. That's why every claim is linked to its quote and unverifiable quotes are flagged. Always confirm important decisions with an official or primary source.
+#   d i g i t a l - d a r k - s p o t  
+ 
